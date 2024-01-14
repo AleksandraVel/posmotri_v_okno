@@ -280,7 +280,7 @@ button {
 .content__video-card-thumbnail {
   object-fit: cover;
   object-position: center;
-  height: 103;
+  height: 103px;
   width: 194px;
 }
 
