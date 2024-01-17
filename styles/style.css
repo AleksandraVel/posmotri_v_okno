@@ -18,7 +18,7 @@ html {
   background-color: #1b1919;
   display: flex;
   justify-content: center;
-  align-content: center;
+  align-items: center;
 }
 
 h1,
@@ -47,17 +47,15 @@ a {
 
 .content {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   width: 1140px;
-  min-height: 534px;
   gap: 29px;
-  margin: 133px 30px;
+  margin-top: 86px;
 }
 
 .result {
   display: flex;
   flex-direction: column;
-  align-self: end;
   gap: 16px;
 }
 
@@ -149,10 +147,16 @@ a {
 
 input:checked + span {
   background-color: #FFF;
+  outline: 1px solid #1b1919;
+  outline-offset: -2px;
 }
 
 .search-form__label {
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: fit-content;
 }
 
 .search-form__label:hover .search-form__label-text {
